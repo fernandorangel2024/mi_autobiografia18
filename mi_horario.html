@@ -1,40 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HORARIO</title>
-    <style>
-        /* Estilos CSS que puedo modificar */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #555;
-        }
-        p {
-            line-height: 1.6;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabla con Información</title>
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
 </head>
 <body>
 
-<div class="container">
-    <h1>HORARIO DE FERNANDO.</h1>
-    <p>El horario de fernando inicia desde temprano a las 5 de la mañana para así bañarse y despues bañarse y alistarse para el colegio, al terminar la jornada escolar regresa a la casa para repetir ese ciclo toda la semana.</p>
-</div>
+<table>
+    <thead>
+        <tr>
+            <th>Dias</th>
+            <th>¿Que hago?</th>
+            <th>¿Horas de estudio?</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>lunes</td>
+            <td>estudio en la mañana y entro a especialidad en la tarde y luego de eso llego a la casa y duermo.</td>
+            <td>10 horas</td>
+        </tr>
+        <tr>
+            <td>Martes</td>
+            <td>estudio en la mañana y salgo a las 11:30 AM</td>
+            <td>6 horas</td>
+        </tr>
+        <tr>
+            <td>Miercoles</td>
+            <td>estudio en la mañana y entro a especialidad en la tarde y luego de eso llego a la casa y duermo.</td>
+            <td>9 horas</td>
+        </tr>
+        <tr>
+            <td>Jueves</td>
+            <td>25</td>
+            <td>10 horas</td>
+            <tr>
+                <td>Viernes</td>
+                <td>25</td>
+                <td>10 horas</td>
+                <tr>
+                    <td>Sábado</td>
+                    <td>25</td>
+                    <td>0 horas</td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td>25</td>
+                    <td>1 horas</td>
+                </tr>
+             
+                
+    </tbody>
+</table>
 
 </body>
 </html>
